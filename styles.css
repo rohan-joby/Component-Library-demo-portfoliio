@@ -9,3 +9,81 @@
   --primary-color-dk: #7f1d1d;
   --primary-color-lg: #fca5a5;
 }
+
+hr {
+  margin: 3rem;
+}
+/** heading **/
+.heading {
+  margin: 3rem;
+  text-align: center;
+}
+
+.heading h1,
+.heading p {
+  margin: 1rem;
+}
+
+/** typography **/
+.typography * {
+  margin: 1rem;
+}
+
+/** container **/
+.container {
+  margin: 1rem;
+}
+
+.container__center {
+  margin: 0 auto;
+  max-width: 75vw;
+}
+
+/** links **/
+.links {
+  margin: 2rem;
+}
+
+.btn {
+  padding: 1rem;
+  margin: 1rem 1rem;
+  text-decoration: none;
+}
+
+.btn__primary {
+  background-color: var(--primary-color-dk);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.btn__secondary {
+  color: var(--primary-color-dk);
+  border: 1px solid var(--primary-color-dk);
+  border-radius: 10px;
+}
+
+/** lists **/
+.list--margin {
+  margin: 1rem;
+}
+
+.list {
+  margin: 1rem;
+}
+
+.list h3{
+  text-decoration: underline;
+}
+
+.list__item {
+  padding-left: 1rem;
+}
+
+.list--no-bullet {
+  list-style: none;
+}
+
+.list--inline {
+  display: inline;
+}
