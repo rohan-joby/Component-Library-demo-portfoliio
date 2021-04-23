@@ -8,7 +8,8 @@
 :root {
   --primary-color-dk: #8d2121;
   --primary-color-lg: #fcd5d5;
-  --grey-lg: rgb(206, 199, 199);
+  --grey-lg: rgb(240, 234, 234);
+  --grey-dk: grey;
 }
 
 hr {
@@ -39,6 +40,11 @@ hr {
 /** container **/
 .container {
   margin: 1rem;
+  padding: 1rem;
+}
+
+.container p {
+  margin-bottom: 2rem;
 }
 
 .container__center {
@@ -52,12 +58,12 @@ hr {
 } */
 
 .btn {
-  padding: 1rem;
   margin: 1rem 1rem;
   text-decoration: none;
 }
 
 .btn__primary {
+  padding: 1rem;
   background-color: var(--primary-color-dk);
   color: var(--primary-color-lg);
   border: 1px solid var(--primary-color-lg);
@@ -65,6 +71,7 @@ hr {
 }
 
 .btn__secondary {
+  padding: 0.75rem;
   color: var(--primary-color-dk);
   border: 1px solid var(--primary-color-dk);
   border-radius: 10px;
@@ -119,7 +126,7 @@ hr {
 
 /** header **/
 .banner {
-  color: var(--grey-lg);
+  color: var(--grey-dk);
 }
 
 .banner__image {
