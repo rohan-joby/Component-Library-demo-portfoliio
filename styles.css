@@ -14,6 +14,12 @@
 hr {
   margin: 3rem;
 }
+
+/** section heading **/
+.div-heading {
+  margin: 1rem;
+}
+
 /** heading **/
 .heading {
   margin: 3rem;
@@ -41,9 +47,9 @@ hr {
 }
 
 /** links **/
-.links {
+/* .links {
   margin: 2rem;
-}
+} */
 
 .btn {
   padding: 1rem;
@@ -65,9 +71,9 @@ hr {
 }
 
 /** lists **/
-.list--margin {
+/* .list--margin {
   margin: 1rem;
-}
+} */
 
 .list {
   margin: 1rem;
