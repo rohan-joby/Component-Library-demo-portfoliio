@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color-dk: #7f1d1d;
+  --primary-color-dk: #8d2121;
   --primary-color-lg: #fcd5d5;
   --grey-lg: rgb(206, 199, 199);
 }
@@ -122,18 +122,44 @@ hr {
   color: var(--grey-lg);
 }
 
-.banner--image {
+.banner__image {
   max-width: 30rem;
   max-height: 30rem;
   display: block;
   margin: 2rem auto;
 }
 
-.banner-desc {
+.banner__desc {
   text-align: center;
   font-size: 2.5rem;
 }
 
 .banner span {
   color: var(--primary-color-dk);
+}
+
+/** section **/
+.bg--ow {
+  background-color: var(--grey-lg);
+}
+
+.section {
+  margin: 1rem;
+}
+
+/** footer **/
+.footer {
+  background-color: var(--primary-color-dk);
+  padding: 2rem;
+  border-top-right-radius: 15px;
+}
+
+.footer__heading {
+  font-size: 1rem;
+  margin: 1rem;
+  color: var(--grey-lg);
+}
+
+.social {
+  text-align: center;
 }
